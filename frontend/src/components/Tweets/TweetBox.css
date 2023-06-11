@@ -1,0 +1,23 @@
+.tweet {
+	border: 2px solid blue;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  min-height: 57px;
+}
+
+.tweet > p, h3 {
+	margin-left: 5px;
+}
+
+.tweet > h3 {
+	font-size: 24px;
+	font-weight: 400;
+	color: slategray;
+}
+
+.tweet > p {
+	font-size: 16px;
+	font-weight: 300;
+	/* font-style: italic; */
+	color: slategray;
+}

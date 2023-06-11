@@ -1,5 +1,6 @@
 import { combineReducers } from 'redux';
 import { sessionErrorsReducer } from './session';
+import { tweetErrorsReducer } from './tweets';
 
 const nullErrors = null;
 
@@ -16,6 +17,7 @@ export const sessionErrorsReducer = (state = nullErrors, action) => {
 };
 
 export default combineReducers({
-  session: sessionErrorsReducer
+  session: sessionErrorsReducer,
+	tweets: tweetErrorsReducer
 });
 
